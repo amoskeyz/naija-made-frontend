@@ -1,0 +1,46 @@
+.card-item{
+    margin:5px;
+    background: white;
+    // border: 1px solid grey;
+    padding:5px;
+    display: inline-block;
+    border-radius:5px;
+    box-shadow: 2px 3px 5px grey;
+    img, .spin {
+        width: 200px;
+        height: 220px
+    }
+    a{
+        text-decoration: none;
+        outline: none;
+    }
+    hr{
+        // color:green;
+        font-size: 40px;
+        // height:45px;
+        font-weight: bold;
+        // border: 1px solid;
+        // padding: 0.1em;
+        margin: 0.1em;
+    }
+    text-align: center;
+    p{
+        // background-color: orange;
+        width:50%;
+        font-style: italic;
+        font-weight: bold;
+        padding:0;
+        margin:0;
+        margin:auto;
+        font-size: 19px;
+        // color:white
+    }
+
+    .spin{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        padding: 50%;
+        align-content: center;
+    }
+}

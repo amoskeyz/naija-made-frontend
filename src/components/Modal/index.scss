@@ -1,0 +1,43 @@
+dialog{
+	// font-family:  'Exo 2', sans-serif;
+    position: fixed;
+    // bottom: 0;
+	// width: 700px;
+	// min-height: 400px;
+	// margin: 50% auto;
+	border:0px solid;
+	// z-index: 3;
+	border-bottom:15px solid orange; 
+	border-radius: 3px;
+	// box-shadow: 3px 2px 2px 1px rgba(0,0,0,0.5);
+	// transform: scale(0);
+	transform-origin: initial initial;
+	transition: all 1s ease;
+}
+
+
+.modd > button{
+    padding: 10px 20px 10px 20px;
+    margin: 3px;
+    background: orange;
+    font-size: 18px
+}
+
+.modd{
+    hr{
+        width: 100%
+    }
+    input{
+        text-align: center;
+        margin: 0 5px;
+        border-color: grey;
+        color:red;
+        border-radius: 5px;
+    }
+    .mm{
+        padding: 10px 20px 10px 20px;
+        margin: 3px;
+        background: orange;
+        font-size: 18px
+    }
+}

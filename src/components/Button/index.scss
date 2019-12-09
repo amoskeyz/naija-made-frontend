@@ -1,0 +1,26 @@
+button{
+    outline: none;
+    text-decoration: none;
+    border: 0;
+    color:white;
+    // border-radius:65px;
+}
+
+.btnn{
+    outline: none;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px lightgrey;
+    // color:red;
+    transition: linear 2s;
+    transition: linear 0.4s;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+.btnn:active{
+    transition: linear 0.4s;
+    box-shadow: 0 0 0;
+    color:green
+}

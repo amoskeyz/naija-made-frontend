@@ -1,0 +1,26 @@
+// form{
+//     // border: none;
+//     // background: red;
+// }
+
+
+.input{
+    // display: flex;
+    // justify-content: center;
+    margin:10px 50%;
+    // align-self: center;
+    text-align: center;
+}
+
+form{
+    background-image :url('../../../images/111.jpg');
+    margin-top: 250px;
+    border: 1px solid black;
+}
+input{
+    border: 1px solid black;
+}
+label{
+    color:orange;
+    font-weight: bold;
+}

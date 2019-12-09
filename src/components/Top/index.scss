@@ -1,0 +1,158 @@
+.topp{
+    display: flex;
+    padding: 10px;
+    flex: 1 50%;
+    margin: 15px 0px 0 0px;
+    border-radius:5px;
+    background: white;
+    img{
+        width: 300px;
+        height: 300px;
+    }
+
+    hr{
+        width: 145%;
+        padding: 0;
+        margin: 0;
+        margin: 3px 0;
+    }
+
+    .lef{
+        // display: flex;
+        // justify-content: space-between;
+        // padding: 5px;
+        hr{
+            font-size: 40px;
+            height:290px;
+            font-weight: bold;
+            border: 1px solid;
+            // padding/: 0.1em;
+            margin: 0.15em;
+            // color: red;
+        }
+
+        .secImage{
+            text-align: center;
+            img{
+                padding: 5px;
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+}
+
+.viewa{
+    display: flex;
+}
+
+.desi{
+    // display: flex;
+    background: white;
+    flex: 1 1%;
+    margin: 15px 15px 0 5px;
+    border-radius: 5px;
+    .h{
+        // display: flex;
+        // justify-content: center;
+        text-align: center;
+        padding: auto
+    }
+    hr{
+        // font-size: 40px;
+        width:290px;
+        font-weight: bold;
+        // border: 1px solid;
+        // padding/: 0.1em;
+        // margin: 0.15em;
+        // color: red;
+    }
+
+    .icoon{
+        // margin: 10px;
+        margin-bottom: 5px;
+        font-size: 35px;
+    }
+    // span{
+    //     padding: 0;
+    //     margin:0
+    // }
+    .radius{
+        text-align: center;
+        // background: red;
+        padding-bottom: 7px;
+        margin: 10px;
+        // width: 23%;
+        flex: 1 30%;
+        height:20%;
+        border: 1px solid grey;
+        border-radius:50%;
+    }
+
+    .deeet{
+        margin: 10px;
+        flex:1 90%
+    }
+}
+
+// .shipping{
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+.variation > button{
+       padding: 5px;
+        margin: 3px;
+        background: white;
+        color: black;
+        font-size: 14px;
+        border: 1px solid grey
+
+}
+.til{
+    // color: orange;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.rig{
+    padding: 20px;
+    margin: 20px;
+    // padding-right:70px\
+    .buut>button{
+        padding: 10px 20px 10px 20px;
+        margin: 3px;
+        background: orange;
+        font-size: 18px
+    }
+
+    p{
+        padding: 0;
+
+    }
+
+    .rating{
+        padding: 0;
+        margin: 0;
+        // color: orange;
+    }
+}
+.amount{
+    // color: orange;
+    font-weight: bold;
+    font-size: 23px;
+    // font-style: italic;
+    // font-style: st;;
+}
+
+.sp{
+    color: orangered;
+    padding: 0px 5px 0 0;
+    margin: 0px 10px 0 0;
+    font-size: 19px;
+    font-weight: bold;
+    // background: orange;
+    span{
+        font-size: 30px
+    }
+}

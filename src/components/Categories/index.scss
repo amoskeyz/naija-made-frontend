@@ -1,0 +1,129 @@
+
+ul{
+    text-decoration: none;
+    // width: 30%;
+    label{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-weight: bold;
+        // color: blue;
+    }
+    li{
+        font-size: 19px;
+        list-style: none;
+        // font-weight:bold;
+        padding: 5px 5px 5px 10px;
+        margin: 0px;
+    }
+    li:hover{
+        background-color: grey;
+        cursor: pointer;
+        color: orange;
+    }
+    padding: 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    // flex-direction: row;
+    // flex: 1100%;
+    // width:100%;
+    // flex-flow: row wrap;
+}
+
+.flex > * {
+    margin:3px;
+    flex: 1 100%;
+  }
+.categoryList{
+    // text-align:center;
+    // padding: 4px 2px;
+    font-size:17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 390px;
+    border-radius:5px;
+    box-shadow: 2px 3px 5px grey;
+    flex:1 28%;
+    margin-left:60px;
+}
+
+.fll{
+    margin:1px;
+}
+
+
+.user{
+    flex:1 28%;
+    border-radius:5px;
+    box-shadow: 2px 3px 5px grey;
+    margin-right:60px;
+    height: 390px;
+    .userIcon{
+        color:grey;
+        padding-top:15px;
+        display: flex;
+        justify-content: center;
+        font-size:50px;
+    }
+}
+
+.bnt{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+// img{
+//     // box-shadow: 2px 3px 5px grey;
+//     // transition: linear 2s;
+//     // position: relative;
+//     // left:50px
+// }
+// .imagg{
+//     width:4px;
+//     height:4px
+// }
+
+.imageScroll{
+    .coura{
+    box-shadow: 2px 3px 5px grey;
+    }
+}
+.item{
+    margin:5px;
+    background: white;
+    // border: 1px solid grey;
+    padding:5px;
+    display: inline-block;
+    border-radius:5px;
+    box-shadow: 2px 3px 5px grey;
+    img{
+        width: 150px;
+        height: 150px
+    }
+    hr{
+        // color:green;
+        font-size: 40px;
+        // height:45px;
+        font-weight: bold;
+        // border: 1px solid;
+        // padding: 0.1em;
+        margin: 0.1em;
+    }
+    text-align: center;
+    p{
+        background-color: orange;
+        width:60%;
+        padding:0;
+        margin:0;
+        margin:auto;
+        color:white
+    }
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    // background-color: red;
+    // margin:auto
+}
